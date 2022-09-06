@@ -12,6 +12,10 @@
   },
   "author": "swolfand",
   "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  },
   "bugs": {
     "url": "https://github.com/swolfand/increment-version-action/issues"
   },

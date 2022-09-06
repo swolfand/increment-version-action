@@ -1,18 +1,12 @@
 name: "Increment the version in a text file"
 description: "increment the version in a text file"
 inputs:
-  gradlePath:
-    description: "Gradle path to override version"
+  filePath:
+    description: "Path to file to read"
     required: true
-    default: "app/build.gradle"
-  versionCode:
-    description: "The new version code"
-    required: false
-  versionName:
-    description: "The new version name"
-    required: false
+    default: "ci/version-code.txt"
 outputs:
-  result: # id of output
+ code: # id of output
     description: "Action Result"
 runs:
   using: "node12"

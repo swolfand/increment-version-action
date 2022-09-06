@@ -1,0 +1,19 @@
+{
+  "name": "increment-version-action",
+  "version": "1.0.0",
+  "description": "increments text file version by one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swolfand/increment-version-action.git"
+  },
+  "author": "swolfand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swolfand/increment-version-action/issues"
+  },
+  "homepage": "https://github.com/swolfand/increment-version-action#readme"
+}
